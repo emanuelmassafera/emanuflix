@@ -7,13 +7,13 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div style={{ background: "#141414" }}>
+    <div style={{ background: "#141614" }}>
       <Menu />
 
       <BannerMain
         videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
         url={dadosIniciais.categorias[0].videos[0].url}
-        videoDescription={"O que é Front-end? Trabalhando na área os termos HTML, CSS e JavaScript fazem parte da rotina das desenvolvedoras e desenvolvedores. Mas o que eles fazem, afinal? Descubra com a Vanessa!"}
+        videoDescription={"Open Source é um mundo SENSACIONAL e a quantidade de repositórios que você encontra no Github é infinita. E nesse vídeo a gente vai ver uma lista chamada '10 Extraordinary GitHub Repos for All Developers'"}
       />
 
       <Carousel
@@ -32,15 +32,6 @@ function App() {
       <Carousel
         category={dadosIniciais.categorias[3]}
       />
-
-      <Carousel
-        category={dadosIniciais.categorias[4]}
-      />
-
-      <Carousel
-        category={dadosIniciais.categorias[5]}
-      />
-
       <Footer />
     </div>
   );

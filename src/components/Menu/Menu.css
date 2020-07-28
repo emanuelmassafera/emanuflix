@@ -25,7 +25,7 @@
     padding-right: 5%;
   
     background: var(--black);
-    border-bottom: 2px solid var(--primary);
+    border-bottom: 1px solid #D8FDDA;
 }
 
 body {
@@ -55,7 +55,7 @@ body {
     font-weight: bold;
     font-size: 16px;
     outline: none;
-    border-radius: 5px;
+    border-radius: 8px;
     text-decoration: none;
     display: inline-block;
     transition: opacity .3s;
@@ -63,7 +63,7 @@ body {
 
 .ButtonLink:hover,
 .ButtonLink:focus {
-    opacity: .5;
+    opacity: 0.5;
 }
   
 @media (max-width: 800px) {
@@ -72,8 +72,8 @@ body {
       left: 0;
       right: 0;
       bottom: 0;
-      background: var(--primary);
-      border-radius: 0;
+      background: #619D07;
+      border-radius: 8px;
       border: 0;
       text-align: center;
     }
