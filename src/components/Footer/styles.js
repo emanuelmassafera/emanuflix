@@ -10,7 +10,9 @@ export const FooterBase = styled.footer`
   padding-bottom: 32px;
   color: var(--white);
   text-align: center;
-  margin-top: 200px;
+  a:any-link {
+    text-decoration:none;
+  }
   @media (max-width: 800px) {
     margin-bottom: 50px;
   }
