@@ -3,7 +3,7 @@
     {
       "titulo": "Tecnologia",
       "link": "https://www.alura.com.br/formacao-front-end",
-      "cor": "#6BD1FF",
+      "cor": "#7A151F",
       "link_extra": {
         "text": "",
         "url": "https://www.alura.com.br/cursos-online-front-end"
@@ -45,7 +45,7 @@
     },
     {
       "titulo": "Games",
-      "cor": "#00C86F",
+      "cor": "#7A151F",
       "link_extra": {
         "text": "",
         "url": "https://www.alura.com.br/cursos-online-programacao"
@@ -74,8 +74,38 @@
       ]
     },
     {
+      "titulo": "Séries",
+      "cor": "#7A151F",
+      "link_extra": {
+        "text": "",
+        "url": "https://www.alura.com.br/cursos-online-programacao"
+      },
+      "videos": [
+        {
+          "titulo": "Game of Thrones | Season 8 | Official Trailer (HBO)",
+          "url": "https://www.youtube.com/watch?v=rlR4PJn8b8I"
+        },
+        {
+          "titulo": "Breaking Bad Season 5 Promo Trailer || The End Of A King || [HD]",
+          "url": "https://www.youtube.com/watch?v=Gx7L8FWN80Y"
+        },
+        {
+          "titulo": "Peaky Blinders | Season 5 Trailer | Netflix",
+          "url": "https://www.youtube.com/watch?v=Ruyl8_PT_y8"
+        },
+        {
+          "titulo": "THE WITCHER | MAIN TRAILER | NETFLIX",
+          "url": "https://www.youtube.com/watch?v=ndl1W4ltcmg"
+        }, 
+        {
+          "titulo": "BANSHEE - Season 1 | Full TRAILER | HD",
+          "url": "https://www.youtube.com/watch?v=VI7haj7HTCA"
+        }
+      ]
+    },
+    {
       "titulo": "Investimentos",
-      "cor": "#9cd33b",
+      "cor": "#7A151F",
       "link_extra": {
         "text": "",
         "url": "https://www.alura.com.br/formacao-data-science"
@@ -105,7 +135,7 @@
     },
     {
       "titulo": "Academia",
-      "cor": "#6b5be2",
+      "cor": "#7A151F",
       "link_extra": {
         "text": "",
         "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
