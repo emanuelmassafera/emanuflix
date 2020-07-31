@@ -1,0 +1,10 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "name": "Front end",
+            "description": "topzera",
+            "color": "#fff"
+        }
+    ]
+}

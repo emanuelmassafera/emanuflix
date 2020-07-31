@@ -1,7 +1,8 @@
+/* eslint-disable linebreak-style */
 import React from 'react';
+import styled from 'styled-components';
 import Menu from '../Menu';
 import Footer from '../Footer';
-import styled from 'styled-components';
 
 const Main = styled.main`
     background-color: #141614;
@@ -10,18 +11,27 @@ const Main = styled.main`
     padding-top: 50px;
     padding-left: 5%;
     padding-right: 5%;
+    padding-bottom: 5%;
 `;
 
-function PageDefault({children}) {
-    return(
-        <>
-            <Menu/>
-                <Main>
-                    {children}
-                </Main>
-            <Footer/>
-        </>
-    );
+const Container = styled.div`
+  width: 1000px;
+  margin: 0 auto;
+`;
+
+// eslint-disable-next-line react/prop-types
+function PageDefault({ children }) {
+  return (
+    <>
+      <Menu />
+      <Main>
+        <Container>
+          {children}
+        </Container>
+      </Main>
+      <Footer />
+    </>
+  );
 }
 
 export default PageDefault;
