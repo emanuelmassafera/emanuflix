@@ -1,14 +1,17 @@
 /* eslint-disable linebreak-style */
 import config from '../config';
 
-const URL_CATEGORIES = `${config.URL}/categories?_embed=videos`;
+const URL_CATEGORIES = `${config.URL}/categorias`;
 
 function getAllWithVideos() {
-  return fetch(URL_CATEGORIES)
+  return fetch(`${URL_CATEGORIES}?_embed=videos`)
     .then(async (respostaDoServer) => {
-      const resposta = await respostaDoServer.json();
+      if (respostaDoServer.ok) {
+        const resposta = await respostaDoServer.json();
+        return resposta;
+      }
 
-      return resposta;
+      throw new Error('Não foi possível pegar os dados!');
     });
 }
 

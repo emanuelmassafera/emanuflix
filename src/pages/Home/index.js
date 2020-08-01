@@ -11,6 +11,9 @@ function Home() {
     categoriesRepository.getAllWithVideos()
       .then((categoriasComVideos) => {
         console.log(categoriasComVideos);
+      })
+      .catch((err) => {
+        console.log(err.message);
       });
   });
 
