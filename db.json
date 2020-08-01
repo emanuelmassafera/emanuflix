@@ -2,11 +2,47 @@
     "categories": [
       {
         "id": 1,
-        "title": "Front End",
-        "color": "#6BD1FF",
+        "title": "Tecnologia",
+        "color": "#7A151F",
         "link_extra": {
-          "text": "Formação de Front End na Alura",
-          "url": "https://www.alura.com.br/cursos-online-front-end"
+          "text": "",
+          "url": ""
+        }
+      },
+      {
+        "id": 2,
+        "title": "Games",
+        "color": "#7A151F",
+        "link_extra": {
+          "text": "",
+          "url": ""
+        }
+      },
+      {
+        "id": 3,
+        "title": "Séries",
+        "color": "#7A151F",
+        "link_extra": {
+          "text": "",
+          "url": ""
+        }
+      },
+      {
+        "id": 4,
+        "title": "Investimentos",
+        "color": "#7A151F",
+        "link_extra": {
+          "text": "",
+          "url": ""
+        }
+      },
+      {
+        "id": 5,
+        "title": "Academia",
+        "color": "#7A151F",
+        "link_extra": {
+          "text": "",
+          "url": ""
         }
       }
      ],
@@ -14,8 +50,176 @@
       {
         "id": 1,
         "categorieId": 1,
-        "title": "SEO com React",
-        "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+        "title": "Seja um Programador Melhor: 10 Repositórios SENSACIONAIS no GitHub (tudo Open Source!)",
+        "url": "https://www.youtube.com/watch?v=vGQSG_YnTOw&list=PLtMN-Oi7Dr3T1Cgx3gP-tBVh2i7lo2Kpk&index=19&t=0s"
+      },
+      {
+        "id": 2,
+        "categorieId": 1,
+        "title": "How to use Git and GitHub in practice: a guide for beginners | Mayk Brito",
+        "url": "https://www.youtube.com/watch?v=2alg7MQ6_sI&list=PLtMN-Oi7Dr3T1Cgx3gP-tBVh2i7lo2Kpk&index=18&t=2s"
+      },
+      {
+        "id": 3,
+        "categorieId": 1,
+        "title": "5 Plataformas para trabalhar como freelancer e ganhar dinheiro na internet",
+        "url": "https://www.youtube.com/watch?v=4lkOMOt_2ZY&list=PLtMN-Oi7Dr3T1Cgx3gP-tBVh2i7lo2Kpk&index=13&t=0s"
+      },
+      {
+        "id": 4,
+        "categorieId": 1,
+        "title": "5 Projects Every Programmer Should Try",
+        "url": "https://www.youtube.com/watch?v=jOFco1xuIeo&list=PLtMN-Oi7Dr3T1Cgx3gP-tBVh2i7lo2Kpk&index=11&t=0s"
+      },
+      {
+        "id": 5,
+        "categorieId": 1,
+        "title": "programador Junior, o que as empresas esperam que tu saiba",
+        "url": "https://www.youtube.com/watch?v=WPTQ8fZ0aQk"
+      },
+      {
+        "id": 6,
+        "categorieId": 1,
+        "title": "Meu PIOR EMPREGO como programador (estágio)",
+        "url": "https://www.youtube.com/watch?v=uO3cVO_cGsU&list=LLCeAvbcS49rphewPmvoKv9g&index=43&t=0s"
+      },
+      {
+        "id": 7,
+        "categorieId": 1,
+        "title": "As Skills de um Desenvolvedor Front-End // Vlog #70",
+        "url": "https://www.youtube.com/watch?v=TWy2rxyZLrE&list=WL&index=40&t=0s"
+      },
+      {
+        "id": 8,
+        "categorieId": 1,
+        "title": "Base para aprender os frameworks",
+        "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+      },
+      {
+        "id": 9,
+        "categorieId": 2,
+        "title": "Asmongold INVADES Orgrimmar Once Again In Classic WoW (World PVP Highlights)",
+        "url": "https://www.youtube.com/watch?v=bWlQ7afXfD4&t=918s"
+      },
+      {
+        "id": 10,
+        "categorieId": 2,
+        "title": "CADA TIRO ERA UM ARREGAÇO - GRAVES 100% CRÍTICO JUNGLE GAMEPLAY- League of Legends - [PT-BR]",
+        "url": "https://www.youtube.com/watch?v=sAf6Pq9SExc"
+      },
+      {
+        "id": 11,
+        "categorieId": 2,
+        "title": "VOLTEI DESTRUINDO COM A SNIPER E 8x - PUBG",
+        "url": "https://www.youtube.com/watch?v=hDZk5u6XVdc"
+      },
+      {
+        "id": 12,
+        "categorieId": 2,
+        "title": "ED 171 PITS OF INFERNO QUEST SOLO - TIBIA",
+        "url": "https://www.youtube.com/watch?v=OkaRZsAPLDo&t=183s"
+      },
+      {
+        "id": 13,
+        "categorieId": 2,
+        "title": "Apex Legends WTF & Funny Moments #380",
+        "url": "https://www.youtube.com/watch?v=0HPT42PkAIA"
+      },
+      {
+        "id": 14,
+        "categorieId": 3,
+        "title": "Game of Thrones | Season 8 | Official Trailer (HBO)",
+        "url": "https://www.youtube.com/watch?v=rlR4PJn8b8I"
+      },
+      {
+        "id": 15,
+        "categorieId": 3,
+        "title": "Breaking Bad Season 5 Promo Trailer || The End Of A King || [HD]",
+        "url": "https://www.youtube.com/watch?v=Gx7L8FWN80Y"
+      },
+      {
+        "id": 16,
+        "categorieId": 3,
+        "title": "Peaky Blinders | Season 5 Trailer | Netflix",
+        "url": "https://www.youtube.com/watch?v=Ruyl8_PT_y8"
+      },
+      {
+        "id": 17,
+        "categorieId": 3,
+        "title": "THE WITCHER | MAIN TRAILER | NETFLIX",
+        "url": "https://www.youtube.com/watch?v=ndl1W4ltcmg"
+      },
+      {
+        "id": 18,
+        "categorieId": 3,
+        "title": "BANSHEE - Season 1 | Full TRAILER | HD",
+        "url": "https://www.youtube.com/watch?v=VI7haj7HTCA"
+      },
+      {
+        "id": 19,
+        "categorieId": 3,
+        "title": "The Walking Dead Trailer",
+        "url": "https://www.youtube.com/watch?v=R1v0uFms68U"
+      },
+      {
+        "id": 20,
+        "categorieId": 4,
+        "title": "Checklist para te ajudar a Declarar o Imposto de Renda",
+        "url": "https://www.youtube.com/watch?v=luRpho4gyRY&list=PLtMN-Oi7Dr3S1jPub4wlVAtjyzHH_0bce&index=5&t=0s"
+      },
+      {
+        "id": 21,
+        "categorieId": 4,
+        "title": "Como escolher as MELHORES AÇÕES para o LONGO PRAZO | Análise Fundamentalista",
+        "url": "https://www.youtube.com/watch?v=66vqrsF6zP8&list=PLtMN-Oi7Dr3S1jPub4wlVAtjyzHH_0bce&index=12&t=0s"
+      },
+      {
+        "id": 22,
+        "categorieId": 4,
+        "title": "Como ganhar com a marcação a mercado no Tesouro Direto | Você MAIS Rico",
+        "url": "https://www.youtube.com/watch?v=ll7EB32XM_g"
+      },
+      {
+        "id": 23,
+        "categorieId": 4,
+        "title": "Como escolher o MELHOR FUNDO IMOBILIÁRIO (FII) da BOLSA DE VALORES",
+        "url": "https://www.youtube.com/watch?v=VUwU9wt2s7w&list=PLtMN-Oi7Dr3S1jPub4wlVAtjyzHH_0bce&index=11&t=0s"
+      },
+      {
+        "id": 24,
+        "categorieId": 4,
+        "title": "6 COISAS QUE VOCÊ NÃO DEVE PERDER SEU TEMPO! (mas que você pode estar perdendo)",
+        "url": "https://www.youtube.com/watch?v=TvLL4fGia9E"
+      },
+      {
+        "id": 25,
+        "categorieId": 5,
+        "title": "HORSE LEVOU BALESTRIN AO LIMITE",
+        "url": "https://www.youtube.com/watch?v=jx4Z62hVF4Q&t=727s"
+      },
+      {
+        "id": 26,
+        "categorieId": 5,
+        "title": "BULKING HORMONIZADO 4000 CALORIAS | DIETA FLEXÍVEL NA PRÁTICA",
+        "url": "https://www.youtube.com/watch?v=oSMkeRqNNu4"
+      },
+      {
+        "id": 27,
+        "categorieId": 5,
+        "title": "NUNCA FAÇA ISSO NA ACADEMIA",
+        "url": "https://www.youtube.com/watch?v=kp7qXEC441Y"
+      },
+      {
+        "id": 28,
+        "categorieId": 5,
+        "title": "LEO STRONDA APAVOROU ALEX DOS ANJOS E RUDEBOY",
+        "url": "https://www.youtube.com/watch?v=_8qP3DsLt20"
+      },
+      {
+        "id": 29,
+        "categorieId": 5,
+        "title": "DESAFIANDO OS PESOS DO CT",
+        "url": "https://www.youtube.com/watch?v=6z-G9PZhle0"
       }
     ]
   }

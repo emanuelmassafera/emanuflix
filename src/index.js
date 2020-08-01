@@ -8,7 +8,6 @@ import CadastroVideo from './pages/cadastro/Video';
 import CadastroCategoria from './pages/cadastro/Categoria';
 import Erro from './pages/Erro';
 
-
 ReactDOM.render(
   <BrowserRouter>
     <Switch>
@@ -18,7 +17,5 @@ ReactDOM.render(
       <Route component={Erro} />
     </Switch>
   </BrowserRouter>,
-  document.getElementById('root')
+  document.getElementById('root'),
 );
-
-

@@ -9,6 +9,7 @@ import { Link } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
+import useForm from '../../../hooks/useForm';
 
 function CadastroCategoria() {
   const initialValues = {
@@ -17,19 +18,9 @@ function CadastroCategoria() {
     color: '#7A151F',
   };
 
+  const { handlerFunction, values, clearForm } = useForm(initialValues);
+
   const [categorias, setCategorias] = useState([]);
-  const [values, setValues] = useState(initialValues);
-
-  function setValue(key, value) {
-    setValues({
-      ...values,
-      [key]: value,
-    });
-  }
-
-  function handlerFunction(event) {
-    setValue(event.target.getAttribute('name'), event.target.value);
-  }
 
   useEffect(() => {
     if (window.location.href.includes('localhost')) {
@@ -44,7 +35,7 @@ function CadastroCategoria() {
           throw new Error('Não foi possível pegar os dados');
         });
     }
-  }, []); 
+  }, []);
 
   return (
     <PageDefault>
@@ -60,7 +51,7 @@ function CadastroCategoria() {
           values,
         ]);
 
-        setValues(initialValues);
+        clearForm(initialValues);
       }}
       >
 
