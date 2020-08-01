@@ -5,97 +5,113 @@
 /* eslint-disable react/no-array-index-key */
 /* eslint-disable linebreak-style */
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useHistory } from 'react-router-dom';
+import styled from 'styled-components';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
 import useForm from '../../../hooks/useForm';
+import categoriesRepository from '../../../repositories/categories';
+
+const Container = styled.main`
+    width: 1000px;
+    margin: 0px auto;
+`;
+
+const NavButtons = styled.main`
+    display: flex;
+    justify-content: space-between;
+`;
 
 function CadastroCategoria() {
+  const history = useHistory();
   const initialValues = {
     name: '',
     description: '',
     color: '#7A151F',
   };
 
-  const { handlerFunction, values, clearForm } = useForm(initialValues);
+  const { handlerFunction, values } = useForm(initialValues);
 
   const [categorias, setCategorias] = useState([]);
 
   useEffect(() => {
-    if (window.location.href.includes('localhost')) {
-      const URL = 'https://emanuflix.herokuapp.com/categorias';
-      fetch(URL)
-        .then(async (respostaDoServer) => {
-          if (respostaDoServer.ok) {
-            const resposta = await respostaDoServer.json();
-            setCategorias(resposta);
-            return;
-          }
-          throw new Error('Não foi possível pegar os dados');
-        });
-    }
+    categoriesRepository
+      .getAll()
+      .then((categoriasFromServer) => {
+        setCategorias(categoriasFromServer);
+      });
   }, []);
 
   return (
     <PageDefault>
-      <h1>
-        Cadastro de categoria:
-        {values.name}
-      </h1>
+      <Container>
+        <h1>
+          Cadastro de categoria:
+          {values.name}
+        </h1>
 
-      <form onSubmit={function handleSubmit(event) {
-        event.preventDefault();
-        setCategorias([
-          ...categorias,
-          values,
-        ]);
+        <form onSubmit={(event) => {
+          event.preventDefault();
 
-        clearForm(initialValues);
-      }}
-      >
+          categoriesRepository.create({
+            title: values.name,
+            color: values.color,
+            link_extra: values.description,
+          })
+            .then(() => {
+              // eslint-disable-next-line no-restricted-globals
+              history.push('/');
+            });
+        }}
+        >
 
-        <FormField
-          label="Nome da categoria "
-          value={values.name}
-          onChange={handlerFunction}
-          type="text"
-          name="name"
-        />
+          <FormField
+            label="Nome da categoria "
+            value={values.name}
+            onChange={handlerFunction}
+            type="text"
+            name="name"
+          />
 
-        <FormField
-          label="Descrição "
-          value={values.description}
-          onChange={handlerFunction}
-          type="textarea"
-          name="description"
-        />
+          <FormField
+            label="Descrição"
+            value={values.description}
+            onChange={handlerFunction}
+            type="textarea"
+            name="description"
+          />
 
-        <FormField
-          label="Cor "
-          value={values.color}
-          onChange={handlerFunction}
-          type="color"
-          name="color"
-        />
+          <FormField
+            label="Cor "
+            value={values.color}
+            onChange={handlerFunction}
+            type="color"
+            name="color"
+          />
 
-        <Button>
-          Cadastrar
-        </Button>
+          <NavButtons>
+            <Button>
+              Cadastrar
+            </Button>
 
-      </form>
+            <Link to="/cadastro/categoria">
+              Ir para home
+            </Link>
+          </NavButtons>
 
-      <ul>
-        {categorias.map((categoria) => (
-          <li key={`${categoria.id}`}>
-            {categoria.title}
-          </li>
-        ))}
-      </ul>
+        </form>
 
-      <Link to="/">
-        Ir para home
-      </Link>
+        <ul>
+          {categorias.map((categoria) => (
+            <li key={`${categoria.id}`}>
+              {categoria.title}
+            </li>
+          ))}
+        </ul>
+
+      </Container>
+
     </PageDefault>
   );
 }
