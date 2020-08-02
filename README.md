@@ -36,7 +36,7 @@ A Imersão React foi uma semana de aulas ministradas pela Alura Cursos Online co
 
 ## Layout <a name="-layout" style="text-decoration:none"></a>
 
-<img alt="" src="https://media.giphy.com/media/UrJTGN2dadvoUDYOnN/giphy.gif" width="600px"/>
+<img alt="" src="./public/React App.gif" width="600px"/>
 
 ---
 
