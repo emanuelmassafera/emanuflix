@@ -1,68 +1,97 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">Imersão React</h1>
 
-## Available Scripts
+<p align="center">:clapper: Repositório dedicado à aplicação Emanuflix, desenvolvida durante a Imersão React :clapper:</p>
 
-In the project directory, you can run:
+<h4 align="center">🚧   Concluído 🚀 🚧</h4>
 
-### `npm start`
+---
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Tabela de conteúdos
+=================
+<!--ts-->
+   * [Sobre o projeto](#-sobre-o-projeto)
+   * [Funcionalidades](#-funcionalidades)
+   * [Layout](#-layout)
+   * [Como executar o projeto](#-como-executar-o-projeto)
+   * [Tecnologias](#-tecnologias)
+   * [Autor](#-autor)
+   * [Licença](#-licenca)
+<!--te-->
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+---
 
-### `npm test`
+## Sobre o projeto <a name="-sobre-o-projeto" style="text-decoration:none"></a>
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+A Imersão React foi uma semana de aulas ministradas pela Alura Cursos Online com o objetivo de familiarizar os desenvolvedores com a biblioteca React. Para isto, uma aplicação web, ao estilo Netflix, foi criada. Nela você pode cadastrar categorias de vídeos, cadastrar vídeos e listá-los.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Funcionalidades <a name="-funcionalidades" style="text-decoration:none"></a>
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+- [x] Cadastro de categorias
+- [x] Cadastro de vídeos
+- [x] Listagem de ambos
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## Layout <a name="-layout" style="text-decoration:none"></a>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<img alt="" src="https://media.giphy.com/media/UrJTGN2dadvoUDYOnN/giphy.gif" width="600px"/>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Como executar o projeto <a name="-como-executar-o-projeto" style="text-decoration:none"></a>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Pré-requisitos
 
-## Learn More
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com) e [Node.js](https://nodejs.org/en/). Para trabalhar com o código, é recomendável o uso de um bom editor, como o [VSCode](https://code.visualstudio.com/).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### Rodando a aplicação
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
 
-### Code Splitting
+# Clone este repositório
+$ git clone https://github.com/emanuelmassafera/imersao-react.git
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+# Acesse a pasta do projeto pelo terminal/cmd
+$ cd imersao-react
 
-### Analyzing the Bundle Size
+# Instale as dependências
+$ npm install
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+# Execute a aplicação
+$ npm run dev
 
-### Making a Progressive Web App
+# A plicação inciará na porta:3000 - acesse http://localhost:3000
+# O servidor estará rodando na porta:8080
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+```
+---
 
-### Advanced Configuration
+## Tecnologias <a name="-tecnologias" style="text-decoration:none"></a>
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+- **[NodeJS](https://nodejs.org/en/)**
+- **[ReacJS](https://reactjs.org/)**
+- **[JSON Server](https://github.com/typicode/json-server)**
+- **[Styled Components](https://styled-components.com/)**
+- **[React Slick](https://react-slick.neostack.com/)**
 
-### Deployment
+---
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+## Autor <a name="-autor" style="text-decoration:none"></a>
 
-### `npm run build` fails to minify
+<img style="border-radius: 50%;" src="https://avatars1.githubusercontent.com/u/65625500?s=460&u=eb9e300de61698fc8531949a451ce2f0e9da46f9&v=4" width="100px;" alt=""/>
+<sub>Emanuel Massafera</sub>
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+<b></b>
+
+[![Badge](https://img.shields.io/static/v1?label=&message=Emanuel&color=blue&style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/emanuelmassafera/)](https://www.linkedin.com/in/emanuelmassafera/) [![Badge](https://img.shields.io/static/v1?label=&message=emanuel301@live.com&color=0078D4&style=flat-square&logo=Microsoft-Outlook&logoColor=white&link=mailto:emanuel301@live.com)](mailto:emanuel301@live.com)
+
+---
+
+## Licença <a name="-licenca" style="text-decoration:none"></a>
+
+Esse repositório está licenciado pela **MIT LICENSE**. Para informações detalhadas, leia o arquivo [LICENSE](https://github.com/emanuelmassafera/imersao-react/blob/master/LICENSE). 
+
+Made with ♥ by Emanuel Massafera :wave: [Get in touch!](https://www.linkedin.com/in/emanuelmassafera/)
