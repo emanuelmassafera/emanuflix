@@ -36,7 +36,7 @@ A Imersão React foi uma semana de aulas ministradas pela Alura Cursos Online co
 
 ## Layout <a name="-layout" style="text-decoration:none"></a>
 
-<img alt="" src="https://media.giphy.com/media/UrJTGN2dadvoUDYOnN/giphy.gif"  width="600px"/>
+<img alt="" src="https://media.giphy.com/media/UrJTGN2dadvoUDYOnN/giphy.gif" width="600px"/>
 
 ---
 
@@ -52,18 +52,19 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 ```bash
 
 # Clone este repositório
-$ git clone https://github.com/emanuelmassafera/next-level-week-1.git
+$ git clone https://github.com/emanuelmassafera/imersao-react.git
 
 # Acesse a pasta do projeto pelo terminal/cmd
-$ cd next-level-week-1
+$ cd imersao-react
 
 # Instale as dependências
 $ npm install
 
 # Execute a aplicação
-$ npm start
+$ npm run dev
 
-# O servidor inciará na porta:3000 - acesse http://localhost:3000
+# A plicação inciará na porta:3000 - acesse http://localhost:3000
+# O servidor estará rodando na porta:8080
 
 ```
 ---
@@ -71,10 +72,10 @@ $ npm start
 ## Tecnologias <a name="-tecnologias" style="text-decoration:none"></a>
 
 - **[NodeJS](https://nodejs.org/en/)**
-- **[Express](https://expressjs.com/)**
-- **[SQLite](https://github.com/mapbox/node-sqlite3)**
-- **[Nunjucks](https://mozilla.github.io/nunjucks/)**
-- API: **[IBGE API de UFs](https://servicodados.ibge.gov.br/api/docs/localidades?versao=1#api-UFs-estadosGet)**, **[IBGE API de Municípios](https://servicodados.ibge.gov.br/api/docs/localidades?versao=1#api-Municipios-estadosUFMunicipiosGet)**
+- **[ReacJS](https://reactjs.org/)**
+- **[JSON Server](https://github.com/typicode/json-server)**
+- **[Styled Components](https://styled-components.com/)**
+- **[React Slick](https://react-slick.neostack.com/)**
 
 ---
 
