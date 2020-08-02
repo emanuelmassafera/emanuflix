@@ -63,7 +63,7 @@ $ npm install
 # Execute a aplicação
 $ npm run dev
 
-# A plicação inciará na porta:3000 - acesse http://localhost:3000
+# A aplicação inciará na porta:3000 - acesse http://localhost:3000
 # O servidor estará rodando na porta:8080
 
 ```
