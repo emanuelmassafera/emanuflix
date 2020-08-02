@@ -92,6 +92,6 @@ $ npm run dev
 
 ## Licença <a name="-licenca" style="text-decoration:none"></a>
 
-Esse repositório está licenciado pela **MIT LICENSE**. Para informações detalhadas, leia o arquivo [LICENSE](https://github.com/emanuelmassafera/next-level-week-1/blob/master/LICENSE). 
+Esse repositório está licenciado pela **MIT LICENSE**. Para informações detalhadas, leia o arquivo [LICENSE](https://github.com/emanuelmassafera/imersao-react/blob/master/LICENSE). 
 
 Made with ♥ by Emanuel Massafera :wave: [Get in touch!](https://www.linkedin.com/in/emanuelmassafera/)
