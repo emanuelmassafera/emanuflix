@@ -1,4 +1,4 @@
-<h1 align="center">Imersão React</h1>
+<h1 align="center">Emanuflix</h1>
 
 <p align="center">:clapper: Repositório dedicado à aplicação Emanuflix, desenvolvida durante a Imersão React :clapper:</p>
 
